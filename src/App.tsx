@@ -1,10 +1,13 @@
+import { Button } from "./components/ui/button"
 
 function App() {
   
 
   return (
     <>
-      <div>salom</div>
+      <div>
+        <Button>salom</Button>
+      </div>
     </>
   )
 }
