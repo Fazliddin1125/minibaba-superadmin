@@ -54,10 +54,11 @@ const systemNavItems = [
 ]
 
 export function Sidebar() {
+
   return (
     <aside className="flex h-screen w-64 flex-col border-r bg-sidebar shadow-sm">
       <div className="flex h-16 items-center gap-2 border-b px-6">
-        <div className="flex h-9 w-9 items-center justify-center rounded-2xl bg-gradient-to-tr from-orange-500 to-orange-400 text-sm font-semibold text-white shadow-md">
+        <div className="flex h-9 w-9 items-center justify-center rounded-2xl bg-linear-to-tr from-orange-500 to-orange-400 text-sm font-semibold text-white shadow-md">
           M
         </div>
         <div>

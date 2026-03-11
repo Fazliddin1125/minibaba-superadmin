@@ -3,7 +3,7 @@ import { DashboardLayout } from "./layouts/DashboardLayout"
 import { CategoriesPage } from "./pages/CategoriesPage"
 import { ShopsPage } from "./pages/ShopsPage"
 import LoginPage from "./pages/Auth/Login"
-import DashBoardpage from "./pages/DashBoardPage"
+import DashboardPage from "./pages/Dashboard/DashBoardPage"
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route element={<LoginPage />} path="/login" />
 
         <Route element={<DashboardLayout />}>
-          <Route index element={<DashBoardpage/>} />
+          <Route index element={<DashboardPage/>} />
           <Route path="/categories" element={<CategoriesPage />} />
           <Route path="/shops" element={<ShopsPage />} />
         </Route>
