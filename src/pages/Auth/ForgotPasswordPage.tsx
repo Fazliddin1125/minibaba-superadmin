@@ -53,7 +53,7 @@ export default function ForgotPasswordPage() {
           <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-md">
             <ShoppingBag className="w-5 h-5 text-[#F97316]" />
           </div>
-          <span className="text-white font-bold text-lg tracking-wide">Minibaba Admin.</span>
+          <span className="text-white font-bold text-lg tracking-wide">Minibaba Superadmin.</span>
         </div>
 
         <div className="relative z-10">
