@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { useTranslation } from "react-i18next";
+
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Plus, Pencil, Trash2, X, Save, Globe } from "lucide-react";
+import { Plus, Pencil, Trash2, X, Save } from "lucide-react";
 
 // ===== TYPES =====
 interface Language {
@@ -266,7 +266,7 @@ function DeleteModal({ lang, onClose, onConfirm }: { lang: Language; onClose: ()
 
 // ===== MAIN PAGE =====
 export default function LanguagesPage() {
-  const { t } = useTranslation();
+
   const [languages, setLanguages] = useState<Language[]>(initialLanguages);
   const [modal, setModal] = useState<"add" | "edit" | "delete" | null>(null);
   const [selectedLang, setSelectedLang] = useState<Language | null>(null);
