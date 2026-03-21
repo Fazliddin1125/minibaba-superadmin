@@ -8,6 +8,7 @@ import {
   Users,
   Globe2,
   LogOut,
+  SlidersVertical,
 } from "lucide-react"
 
 import { cn } from "@/lib/utils"
@@ -27,6 +28,11 @@ const mainNavItems = [
     label: "Do'konlar",
     to: "/shops",
     icon: Store,
+  },
+  {
+    label: "Xarakteristikalar",
+    to: "/characteristics",
+    icon: SlidersVertical,
   },
 ]
 
